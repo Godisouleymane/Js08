@@ -1,7 +1,7 @@
 function fibonacciSum(nombre) {
-  const a = 1;
-  const b = 2;
-  const sum = 2;
+  let a = 1;
+  let b = 2;
+  let sum = 2;
   while (b <= nombre) {
     let c = a + b;
     a = b;
